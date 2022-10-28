@@ -1,0 +1,9 @@
+.ipynb_checkpoints/
+__pycache__/
+data/
+downloaded/
+frame_vectors/
+frames/
+img/
+videos/
+files.zip
