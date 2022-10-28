@@ -1,0 +1,10 @@
+nmslib
+pandas
+torch
+requests
+streamlit
+googletrans==3.1.0a0
+ftfy
+regex
+tqdm
+jupyter
