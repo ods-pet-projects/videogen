@@ -21,7 +21,7 @@ else:
     
 @functools.lru_cache
 def search_video(query):
-    query_translated = translator.translate(query, src = 'ru', dest='en').text
+    query_translated = translator.translate(query, src='ru', dest='en').text
 #     return 'videos/hb_nd_cv2.mp4'
     files = glob.glob('downloaded/*')
     return np.random.choice(files)
