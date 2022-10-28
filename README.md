@@ -9,31 +9,29 @@
 
 Основная задача - обучить модель распознавать широкий спектр визуальных концепций в фрагментах видео и связывать их с именованиями на естественном языке. 
 
-Для обучения был использован маркированный набор данных трендовых Youtube видео. 
+Для обучения был использован маркированный набор Youtube видео. 
+
+![image](https://user-images.githubusercontent.com/20246799/198581755-ac1bf3c4-6c37-4ef4-bfec-8be5902ce9d0.png)
 
 ## The target audience
 
 Потенциально неограниченная целевая аудитория
 
 ## Structure
-* 	`data` — directory with ;  
-* 	`frames` — directory with ;  
-* 	`download_data` — ipynb file with ;  
-*  `cut_frames_and_calculate_embs` – ipynb file with ;
-* 	`indexer` — ipynb file with 
-
-
-## Usage 
+*  `cut_frames_and_calculate_embs.ipynb` – ipython notebook for data preparation;
+* 	`indexer.ipynb` — ipython notebook for video indexing
 
 
 ## Models
+* [CLIP](https://github.com/openai/CLIP) - neural network for calculating text-video relevance
 
 
 ## Libraries 
 
 * [pandas](https://github.com/pandas-dev/pandas) — software library in Python for data processing and analysis. 
 * [numpy](https://github.com/numpy/numpy) — software library in Python that adds support for large multidimensional arrays and matrices. 
+* [nmslib](https://github.com/nmslib/nmslib) - software library for similarity searching
 
 
-## Datasets:
-* ля; URL: 
+## Data:
+Set of videos downloaded from Youtube
