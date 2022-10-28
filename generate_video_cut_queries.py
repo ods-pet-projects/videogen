@@ -2,6 +2,7 @@ import re
 import random
 
 def similar_frames_to_query(similar_frames, max_interval_len=10):
+    # similar_frames_to_query(['kek_12.jpg', 'kek_60.jpg', 'lol_16.jpg', 'lol_14.jpg', 'kek_48.jpg', 'kek_56.jpg'])
     video_to_seconds = {}
     for frame_filename in similar_frames:
         frame_video_name = re.search('(\w.*)_\d+\.jpg', frame_filename).group(1)
